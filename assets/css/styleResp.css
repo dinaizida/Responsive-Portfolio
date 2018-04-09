@@ -13,7 +13,7 @@
 
 /* less than 980px) */
 @media only screen and (max-width: 980px) {
-    .wrapper {
+    .wrapper, .ContacMeForm {
         width:55%;
         padding: 20px;
         height: 30%;
@@ -22,8 +22,17 @@
         float: left;
     }
     
-    #portret{
+    #portret {
         width: 90%;
+        height: auto;
+    }
+    .text-block, .rb
+     {
+        width: 100%;   
+    }
+    li{
+        width: 100%;
+        height: auto;
     }
     .ContactSocial {
         width: 22%;
@@ -31,7 +40,10 @@
         margin: 30px auto;
 
     }
-   
+    ul {
+        padding: 20px 20px 20px 5px;
+    }
+    
     } 
     /*more than 980px*/
     @media only screen and (min-width: 980px) {
@@ -44,9 +56,7 @@
             float: left;
         }
         
-        /* #portret{
-            width: 90%;
-        } */
+       
         .ContactSocial {
             width: 22%;
             position: relative;

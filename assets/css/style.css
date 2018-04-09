@@ -66,7 +66,9 @@ h1 {
 h4 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 1.2em;
-}
+}  
+
+/*footer*/
 
 .footer {
     
@@ -127,20 +129,11 @@ a:visited {
     box-shadow: 10px 10px 23px -1px rgba(119, 119, 119, 0.5);
 }
 
-.ContacMeForm {
-    width: 70%;
-    height: 500px;
-    margin-right: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    float: left;
-}
 
 .wrap {
     background-color: #ffffff;
-    margin-left: 0;
-    margin-top: 0;
+    /* margin-left: 0;
+    margin-top: 0; */
     border: solid 1px #dddddd;
     padding: 20px;
 }
@@ -149,7 +142,7 @@ input,
 textarea {
     width: 100%;
     padding: 10px;
-    margin: 10px auto;
+    margin: 10px 0 10px;
     border: none;
     border-bottom: 2px solid #71cadb;
 }
@@ -157,7 +150,7 @@ textarea {
 .fbutton {
     background-color: #71cadb;
     border: solid 1px #e8a734;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #e8a734;
     cursor: pointer;
     border-radius: 8px;
@@ -165,19 +158,13 @@ textarea {
 
 #fsubmit:hover {
     background: #aee1ea;
-    font-size: 1.5em;
-    letter-spacing: 3px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
     -webkit-box-shadow: 5px 5px 13px -1px rgba(119, 119, 119, 0.5);
     -moz-box-shadow: 5px 5px 13px -1px rgba(119, 119, 119, 0.5);
     box-shadow: 5px 5px 13px -1px rgba(119, 119, 119, 0.5);
 }
 
-.container {
-    background-image: url(../images/background.png);
-    background-color: #ebf8fa;
-    position: relative;
-    border: none;
-}
 
 ::placeholder {
     color: #71cadb;
