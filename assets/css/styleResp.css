@@ -1,0 +1,57 @@
+
+
+
+/* less than 640px) */
+@media only screen and (max-width: 640px) {
+
+} 
+
+/* less than  768px ) */
+@media only screen and (max-width: 768px) {
+   
+} 
+
+/* less than 980px) */
+@media only screen and (max-width: 980px) {
+    .wrapper {
+        width:55%;
+        padding: 20px;
+        height: 30%;
+        margin: 30px 5% 10% 10%;
+        position: relative;
+        float: left;
+    }
+    
+    #portret{
+        width: 90%;
+    }
+    .ContactSocial {
+        width: 22%;
+        position: relative;
+        margin: 30px auto;
+
+    }
+   
+    } 
+    /*more than 980px*/
+    @media only screen and (min-width: 980px) {
+        .wrapper {
+            width:55%;
+            padding: 20px;
+            height: 30%;
+            margin: 30px 5% 10% 10%;
+            position: relative;
+            float: left;
+        }
+        
+        /* #portret{
+            width: 90%;
+        } */
+        .ContactSocial {
+            width: 22%;
+            position: relative;
+            margin: 30px auto;
+    
+        }
+       
+        } 
