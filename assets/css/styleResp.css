@@ -8,11 +8,80 @@
 
 /* less than  768px ) */
 @media only screen and (max-width: 768px) {
+
+    .topnav {
+        width: 100%;
+
+    }
+    /* #links {
+        margin-right: 5%; 
+    }
+    .logo-img{
+        margin-left: 10%; */
+    }
+
+    .wrapper  {
+        width:93%;
+        padding: 10px;
+        
+        height: auto;
+        margin: 30px 20px 30px 30px;
+        position: relative;
+        
+    }
+    
+    #portret {
+        width: 50%;
+        height: auto;
+    }
+    h1{
+        padding: 10px;
+    }
+
+    .ContactSocial {
+        width: 93%;
+        padding: 20px;
+        position: relative;
+        margin: 20px 20px 100px 30px;
+        border-radius: 1%;
+        height: auto;
+
+    }
+    h3{
+        padding: 10px;
+    }
+
+    .wrapperPortfolio {
+        height: 720px;
+    }
+
+    .text-block, .rb
+    {
+       width: 99%;   
+   }
+   li{
+       width: 99%x;
+       height: auto;
+   }
+ul{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
    
 } 
 
 /* less than 980px) */
 @media only screen and (max-width: 980px) {
+    h1{
+        padding: 10px;
+    }
+
     .topnav {
         width: 100%;
 
