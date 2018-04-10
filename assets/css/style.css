@@ -178,7 +178,7 @@ textarea {
     float: left;
     position: relative;
     margin-bottom: 1px;
-    margin-left: 200px;
+    
 }
 
 .topnav {
@@ -205,9 +205,7 @@ textarea {
     color: #e8a734
 }
 
-#links {
-    margin-right: 200px;
-}
+
 
 
 /*portfolio page*/

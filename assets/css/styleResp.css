@@ -13,7 +13,17 @@
 
 /* less than 980px) */
 @media only screen and (max-width: 980px) {
-    .wrapper, .ContacMeForm {
+    .topnav {
+        width: 100%;
+
+    }
+    #links {
+        margin-right: 5%; 
+    }
+    .logo-img{
+        margin-left: 10%;
+    }
+    .wrapper {
         width:55%;
         padding: 20px;
         height: 30%;
