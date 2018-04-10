@@ -12,6 +12,7 @@ body {
 
 hr {
     margin-top: 0.5em;
+    width: 95%;
     margin-bottom: 1.5em;
     margin-left: auto;
     margin-right: auto;
@@ -140,8 +141,8 @@ a:visited {
 
 input,
 textarea {
-    width: 100%;
-    padding: 10px;
+    width: 95%;
+    padding: 5px;
     margin: 10px 0 10px;
     border: none;
     border-bottom: 2px solid #71cadb;

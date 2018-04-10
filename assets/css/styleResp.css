@@ -1,83 +1,34 @@
 
 
 
-/* less than 640px) */
-@media only screen and (max-width: 640px) {
-
-} 
-
-/* less than  768px ) */
-@media only screen and (max-width: 768px) {
-
-    .topnav {
-        width: 100%;
-
-    }
-    /* #links {
-        margin-right: 5%; 
-    }
-    .logo-img{
-        margin-left: 10%; */
-    }
-
-    .wrapper  {
-        width:93%;
-        padding: 10px;
-        
-        height: auto;
-        margin: 30px 20px 30px 30px;
-        position: relative;
-        
-    }
-    
-    #portret {
-        width: 50%;
-        height: auto;
-    }
-    h1{
-        padding: 10px;
-    }
-
-    .ContactSocial {
-        width: 93%;
-        padding: 20px;
-        position: relative;
-        margin: 20px 20px 100px 30px;
-        border-radius: 1%;
-        height: auto;
-
-    }
-    h3{
-        padding: 10px;
-    }
-
-    .wrapperPortfolio {
-        height: 720px;
-    }
-
-    .text-block, .rb
-    {
-       width: 99%;   
-   }
-   li{
-       width: 99%x;
-       height: auto;
-   }
-ul{
-    margin-left: 15px;
-}
-
-
-
-
-
-
 
    
-} 
+@media only screen and (min-width: 980px) {
+    .wrapper {
+        width:55%;
+        padding: 20px;
+        height: 30%;
+        margin: 30px 5% 10% 10%;
+        position: relative;
+        float: left;
+    }
+    
+   
+    .ContactSocial {
+        width: 22%;
+        position: relative;
+        margin: 30px auto;
 
-/* less than 980px) */
+    }
+   
+    } 
+
+
+/* less than 980px)*/
 @media only screen and (max-width: 980px) {
+    body{
+        background-color: lightpink;
+    }
     h1{
         padding: 10px;
     }
@@ -123,24 +74,73 @@ ul{
         padding: 20px 20px 20px 5px;
     }
     
-    } 
-    /*more than 980px*/
-    @media only screen and (min-width: 980px) {
-        .wrapper {
-            width:55%;
-            padding: 20px;
-            height: 30%;
-            margin: 30px 5% 10% 10%;
-            position: relative;
-            float: left;
-        }
+    }  
+
+
+/* less than  768px ) */
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: rgb(53, 19, 206);
+    }
+    .topnav {
+        width: 100%;
+
+    }
+    #links {
+        margin-right: 0; 
+    }
+    .logo-img{
+        margin-left: 0;
+    }
+   
+
+    .wrapper  {
+        width:93%;
+        padding: 10px;
         
-       
-        .ContactSocial {
-            width: 22%;
-            position: relative;
-            margin: 30px auto;
+        height: auto;
+        margin: 30px 20px 30px 30px;
+        position: relative;
+        
+    }
     
-        }
-       
-        } 
+    #portret {
+        width: 50%;
+        height: auto;
+    }
+    h1{
+        padding: 10px;
+    }
+
+    .ContactSocial {
+        width: 93%;
+        padding: 20px;
+        position: relative;
+        margin: 20px 20px 100px 30px;
+        border-radius: 1%;
+        height: auto;
+
+    }
+    h3{
+        padding: 10px;
+    }
+
+    
+
+    .text-block, .rb{
+       width: 99%;   
+   }
+   li{
+       width: 99%;
+       height: auto;
+   }
+ul{
+    margin-left: 15px;
+}
+
+}
+
+/* less than 640px) */
+@media only screen and (max-width: 640px) {
+
+} 
