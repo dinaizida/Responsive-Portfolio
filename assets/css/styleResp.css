@@ -4,7 +4,7 @@
 
    
 @media only screen and (min-width: 980px) {
-    .wrapper {
+    /* .wrapper {
         width:55%;
         padding: 20px;
         height: 30%;
@@ -20,14 +20,66 @@
         margin: 30px auto;
 
     }
-   
-    } 
+    */
+    body{
+        
+        overflow-y: scroll;
+    }
+    h1{
+        padding: 10px;
+    }
+
+    .topnav {
+        width: 100%;
+
+    }
+    #links {
+        margin-right: 5%; 
+        
+    }
+    .logo-img{
+        margin-left: 10%;
+    }
+    .wrapper {
+        width:55%;
+        padding: 20px;
+        height: 30%;
+        margin: 30px 5% 10% 10%;
+        position: relative;
+        float: left;
+    }
+    
+    #portret {
+        width: 90%;
+        height: auto;
+    }
+    .text-block, .rb
+     {
+        width: 100%;   
+    }
+    li{
+        width: 100%;
+        height: auto;
+    }
+    .ContactSocial {
+        width: 22%;
+        position: relative;
+        margin: 30px auto;
+
+    }
+    ul {
+        padding: 20px 20px 20px 5px;
+    }
+    
+    }  
+
+    
 
 
 /* less than 980px)*/
 @media only screen and (max-width: 980px) {
     body{
-        background-color: lightpink;
+        /* background-color: lightpink; */
         overflow-y: scroll;
     }
     h1{
@@ -69,8 +121,10 @@
         width: 22%;
         position: relative;
         margin: 30px auto;
-
     }
+     
+
+   
     ul {
         padding: 20px 20px 20px 5px;
     }
@@ -81,15 +135,17 @@
 /* less than  768px ) */
 @media only screen and (max-width: 768px) {
     body{
-        background-color: rgb(53, 19, 206);
+        /* background-color: rgb(53, 19, 206); */
         
     }
     .topnav {
         width: 100%;
 
+
     }
     #links {
         margin-right: 0; 
+        margin-top: 5px;
     }
     .logo-img{
         margin-left: 0;
@@ -127,7 +183,13 @@
         padding: 10px;
     }
 
-    
+.PortfolioContainer {
+    width: 45%;
+
+}
+.portfolio {
+    padding: 0px;
+}
 
     .text-block, .rb{
        width: 99%;   
@@ -137,7 +199,11 @@
        height: auto;
    }
 ul{
-    margin-left: 15px;
+   
+    margin: 0 auto;
+    padding: 0px;
+   
+    
 }
 
 }
@@ -146,9 +212,11 @@ ul{
 @media only screen and (max-width: 640px) {
 
     body{
-        background-color: rgb(19, 206, 91);
+        /* background-color: rgb(19, 206, 91); */
         
     }
+
+
 
     #portret {
         width: 90%;
@@ -160,15 +228,23 @@ ul{
         position: absolute;
         top: 10px;
         right: 30%;
+        
     }
     #links {
         width: 100%;
-        padding: 50px 100px 10px 10px; 
-        margin-right: 100px;
-
-        
+        padding: 50px 0px 10px 0px; 
+        margin-right: 0 auto;
+        display: flex;
+        justify-content: space-evenly;  
         
     }
-   
+    .PortfolioContainer {
+        width: 98%;
     
+    }
+    .wrapper, .wrap{
+        width: 90%;
+        
+    }
+     
 } 

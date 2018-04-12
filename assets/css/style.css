@@ -4,7 +4,9 @@
 
 body {
     background-image: url(../images/background.png);
-    background-color: #ebf8fa;
+    background-color: #edf2f9; 
+     
+   
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0 auto;
@@ -37,7 +39,7 @@ hr {
     -webkit-box-shadow: 10px 10px 23px -1px rgba(119, 119, 119, 0.5);
     -moz-box-shadow: 10px 10px 23px -1px rgba(119, 119, 119, 0.5);
     box-shadow: 10px 10px 23px -1px rgba(119, 119, 119, 0.5);
-    border: solid 2px #e8a734;
+    /* border: solid 2px white; */
 }
 
 .maintext {
@@ -52,7 +54,7 @@ h1,
 h2,
 h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #71cadb;
+    color: #4873bd;
 }
 
 h2,
@@ -83,7 +85,7 @@ h4 {
     position: fixed;
     left: 0;
     bottom: 0;
-    border-top: solid 3px #71cadb;
+    border-top: solid 3px #4873bd;
     margin: 0 auto;
     padding: 0;
 }
@@ -145,11 +147,11 @@ textarea {
     padding: 5px;
     margin: 10px 0 10px;
     border: none;
-    border-bottom: 2px solid #71cadb;
+    border-bottom: 2px solid #4873bd;
 }
 
 .fbutton {
-    background-color: #71cadb;
+    background-color: #4873bd;
     border: solid 1px #e8a734;
     font-size: 1.2em;
     color: #e8a734;
@@ -158,7 +160,7 @@ textarea {
 }
 
 #fsubmit:hover {
-    background: #aee1ea;
+    /* background: #aee1ea; */
     font-size: 1.3em;
     letter-spacing: 2px;
     -webkit-box-shadow: 5px 5px 13px -1px rgba(119, 119, 119, 0.5);
@@ -168,7 +170,7 @@ textarea {
 
 
 ::placeholder {
-    color: #71cadb;
+    color: #4873bd;
     opacity: 0.5;
 }
 
@@ -187,7 +189,7 @@ textarea {
     background-color: #ffffff;
     border: solid 1px #cccccc;
     padding: 10px;
-    border-bottom: solid 2px #71cadb;
+    border-bottom: solid 2px #4873bd;
     overflow: hidden;
     text-align: right;
 }
@@ -195,7 +197,7 @@ textarea {
 .topnav a {
     text-decoration: none;
     padding: 14px 16px;
-    color: #71cadb;
+    color: #4873bd;
 }
 
 .topnav a.active {
@@ -239,7 +241,7 @@ textarea {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #71cadb;
+    background-color: #4873bd;
     border-radius: 4%;
 }
 
