@@ -1,8 +1,4 @@
 
-
-
-
-   
 @media only screen and (min-width: 980px) {
     /* .wrapper {
         width:55%;
@@ -12,8 +8,7 @@
         position: relative;
         float: left;
     }
-    
-   
+
     .ContactSocial {
         width: 22%;
         position: relative;
@@ -21,43 +16,38 @@
 
     }
     */
-    body{
-        
+    body {
         overflow-y: scroll;
     }
-    h1{
+    h1 {
         padding: 10px;
     }
-
     .topnav {
         width: 100%;
-
     }
     #links {
-        margin-right: 5%; 
-        
+        margin-right: 5%;
     }
-    .logo-img{
+    .logo-img {
         margin-left: 10%;
     }
     .wrapper {
-        width:55%;
+        width: 55%;
         padding: 20px;
         height: 30%;
         margin: 30px 5% 10% 10%;
         position: relative;
         float: left;
     }
-    
     #portret {
         width: 90%;
         height: auto;
     }
-    .text-block, .rb
-     {
-        width: 100%;   
+    .text-block,
+    .rb {
+        width: 100%;
     }
-    li{
+    li {
         width: 100%;
         height: auto;
     }
@@ -65,55 +55,49 @@
         width: 22%;
         position: relative;
         margin: 30px auto;
-
     }
     ul {
         padding: 20px 20px 20px 5px;
     }
-    
-    }  
-
-    
+}
 
 
 /* less than 980px)*/
+
 @media only screen and (max-width: 980px) {
-    body{
+    body {
         /* background-color: lightpink; */
         overflow-y: scroll;
     }
-    h1{
+    h1 {
         padding: 10px;
     }
-
     .topnav {
         width: 100%;
-
     }
     #links {
-        margin-right: 5%; 
+        margin-right: 5%;
     }
-    .logo-img{
+    .logo-img {
         margin-left: 10%;
     }
     .wrapper {
-        width:55%;
+        width: 55%;
         padding: 20px;
         height: 30%;
         margin: 30px 5% 10% 10%;
         position: relative;
         float: left;
     }
-    
     #portret {
         width: 90%;
         height: auto;
     }
-    .text-block, .rb
-     {
-        width: 100%;   
+    .text-block,
+    .rb {
+        width: 100%;
     }
-    li{
+    li {
         width: 100%;
         height: auto;
     }
@@ -122,54 +106,42 @@
         position: relative;
         margin: 30px auto;
     }
-     
-
-   
     ul {
         padding: 20px 20px 20px 5px;
     }
-    
-    }  
+}
 
 
 /* less than  768px ) */
+
 @media only screen and (max-width: 768px) {
-    body{
+    body {
         /* background-color: rgb(53, 19, 206); */
-        
     }
     .topnav {
         width: 100%;
-
-
     }
     #links {
-        margin-right: 0; 
+        margin-right: 0;
         margin-top: 5px;
     }
-    .logo-img{
+    .logo-img {
         margin-left: 0;
     }
-   
-
-    .wrapper  {
-        width:93%;
+    .wrapper {
+        width: 93%;
         padding: 10px;
-        
         height: auto;
         margin: 30px 20px 30px 30px;
         position: relative;
-        
     }
-    
     #portret {
         width: 50%;
         height: auto;
     }
-    h1{
+    h1 {
         padding: 10px;
     }
-
     .ContactSocial {
         width: 93%;
         padding: 20px;
@@ -177,74 +149,59 @@
         margin: 20px 20px 100px 30px;
         border-radius: 1%;
         height: auto;
-
     }
-    h3{
+    h3 {
         padding: 10px;
     }
-
-.PortfolioContainer {
-    width: 45%;
-
-}
-.portfolio {
-    padding: 0px;
-}
-
-    .text-block, .rb{
-       width: 99%;   
-   }
-   li{
-       width: 99%;
-       height: auto;
-   }
-ul{
-   
-    margin: 0 auto;
-    padding: 0px;
-   
-    
+    .PortfolioContainer {
+        width: 45%;
+    }
+    .portfolio {
+        padding: 0px;
+    }
+    .text-block,
+    .rb {
+        width: 99%;
+    }
+    li {
+        width: 99%;
+        height: auto;
+    }
+    ul {
+        margin: 0 auto;
+        padding: 0px;
+    }
 }
 
-}
 
 /* less than 640px) */
+
 @media only screen and (max-width: 640px) {
-
-    body{
+    body {
         /* background-color: rgb(19, 206, 91); */
-        
     }
-
-
-
     #portret {
         width: 90%;
         height: auto;
     }
-
-    .logo-img{
+    .logo-img {
         margin: 0 auto;
         position: absolute;
         top: 10px;
         right: 30%;
-        
     }
     #links {
         width: 100%;
-        padding: 50px 0px 10px 0px; 
-        margin-right: 0 auto;
+        padding: 50px 0px 10px 0px;
+        /* margin-right: 0 auto; */
         display: flex;
-        justify-content: space-evenly;  
-        
+        justify-content: space-evenly;
     }
     .PortfolioContainer {
         width: 98%;
-    
     }
-    .wrapper, .wrap{
+    .wrapper,
+    .wrap {
         width: 90%;
-        
     }
-     
-} 
+}
